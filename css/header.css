@@ -1,0 +1,150 @@
+header {
+    background-color: #282321;
+    color: #fff;
+    height: 116px;
+  }
+header .navbar {
+  
+  }
+header .navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    height: 100%;
+    position: relative;
+    width: 1460px;
+    margin: 0 auto;
+  }
+header .navbar .flex h1 {
+    margin-top: 44px;
+    padding-right: 40px;
+  }
+header .navbar .flex h1 a {
+    font-size: 0;
+    background: url(../img/Logowhite.png) no-repeat;
+    background-size: contain;
+    display: flex;
+    width: 226px;
+    height: 40px;
+  }
+header .navbar .flex ul.gnb {
+  display: flex;
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-top: 44px;
+  padding-right: 40px;
+  justify-content: center;
+  }
+header .navbar .flex ul.gnb li {
+  position: relative;
+  margin-right: 20px;
+  }
+header .navbar .flex ul.gnb li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  }
+header .sub, .ssub {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  list-style: none;
+}
+
+header .navbar .flex ul.gnb li ul.sub {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    list-style: none;
+  }
+header .navbar .flex ul.gnb li::hover ul.sub{
+  
+}
+header .navbar .flex ul.gnb li ul.sub li {
+    position: relative;
+  }
+header .navbar .flex ul.gnb li ul.sub li a {
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  }
+header .navbar .flex ul.gnb li ul.sub li ul.ssub {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    list-style: none;
+  }
+header .navbar .flex ul.gnb li ul.sub li::hover ul.ssub {
+  display: block;
+}
+header .navbar .flex ul.gnb li ul.sub li ul.ssub li {
+    position: relative;
+  }
+header .navbar .flex ul.gnb li ul.sub li ul.ssub a {
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;  
+  }
+header .navbar .flex ul.user {
+  top:0;
+  right: 0;
+  display: flex;
+  position: absolute;
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 40px;
+  }
+header .navbar .flex ul.user li {
+    margin-left: 10px;
+  }
+header .navbar .flex ul.user a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+header .navbar .flex .search-container {
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 40px;
+  background-color: #2d2926;
+  border-radius: 5px;
+  margin-top: 47px;
+  align-items: center;
+  box-sizing: border-box;
+  }
+header .navbar .flex .search-container .search-bar {
+  width: 100%;
+  height: 100%;
+  padding: 12px 20px;
+  outline: none;
+  background-color: #282321;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: 1px solid #7f7b78;
+  }
+header .navbar .flex .search-container .search-icon {
+  position: absolute;
+  right: 10px;
+  color: #fff;
+  font-size: 1rem;
+  pointer-events: none;
+  }

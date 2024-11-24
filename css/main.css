@@ -1,0 +1,590 @@
+main {
+    /* main 영역 스타일 */
+}
+
+section.tokocalling {
+    /* tokocalling 섹션 스타일 */
+}
+
+section.tokocalling section.tokyo {
+    /* tokyo 섹션 스타일 */
+
+}
+
+section.tokocalling section.tokyo h2 {
+    font-size: 0;
+    background: center no-repeat url(../img/tokyo_calling_img.png);
+    height: 50px;
+    margin: 100px;
+}
+
+section.tokocalling section.tokyo p.p1 {
+    text-align: center;
+    margin: 90px 0;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section.tokocalling section.tokyo p.p1 br {
+    margin-bottom: 40px;
+}
+section.tokocalling section.tokyo p.p1 span{
+    
+    display: block;
+    line-height: 2.3;
+}
+section.tokocalling section.tokyo p.p3 {
+    line-height: 1.8;
+    font-weight: 500;
+    padding-right: 40px;
+    padding-top: 302px;
+    font-size: 20px;
+}
+
+section.tokocalling section.gallery {
+    /* gallery 섹션 스타일 */
+}
+
+
+section.tokocalling section.img {
+    text-align: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+/*     margin: 20px 0;
+    padding: 0 20px; */
+    list-style: none;
+    row-gap: 30px;
+}
+section.tokocalling section.img li{
+    color: white;    
+    width: 640px;
+    height: 905px;
+    background-size: contain;
+}
+section.tokocalling section.img li:nth-child(1) {
+    grid-column: 3;
+    grid-row: 1;
+    background-image: url(../img/TDB_01_img_right.jpg);
+}
+section.tokocalling section.img li:nth-child(2) {
+    background-image: url(../img/TDC_01_01.jpg);
+    grid-column: 1;
+    grid-row: 1;
+}
+section.tokocalling section.img li:nth-child(3) {
+    background-image: url(../img/TDC_01_02.jpg);
+    grid-column: 2;
+    grid-row: 1;
+}
+section.tokocalling section.img li:nth-child(4) {
+    background-image: url(../img/TDB_02_img_right.jpg);
+    grid-column: 3;
+    grid-row: 2;
+}
+section.tokocalling section.img li:nth-child(6) {
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url(../img/TDC_02_02.jpg);
+}
+section.tokocalling section.img li:nth-child(5) {
+    background-image: url(../img/TDC_02_01.jpg);
+    grid-column: 1;
+    grid-row: 2;
+}
+
+section.tokocalling section.product-showcase p {
+    text-align: center;
+    margin-top: 90px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 450;
+}
+
+section.tokocalling section.product-showcase p#showcase  {
+    background: no-repeat center url(../img/tokyo_design_collective_img.png);
+    font-size: 0;
+    height: 50px;
+}
+section.tokocalling section.product-showcase p#prouduct{
+   
+}
+section.tokocalling section.product-showcase p#prouduct span{
+    display: block;
+    padding: 10px;
+}
+section.tokocalling section.collection {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+    width: 1500px;
+    height: 940px;
+    margin: 0 auto;
+    place-items: center;
+    margin-bottom: 184px;
+}
+section.tokocalling section.collection li{
+    width: 335px;
+    height: 470px;
+    margin-bottom: 48px;
+}
+section.tokocalling section.collection li:nth-child(1){
+    background: url(../img/TDC_03_01.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1;
+    grid-row: 1;    
+}
+section.tokocalling section.collection li:nth-child(2){
+    background: url(../img/TDC_03_02.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 2;
+    grid-row: 1;  
+}
+section.tokocalling section.collection li:nth-child(3){
+    background: url(../img/TDC_03_03.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 3;
+    grid-row: 1;  
+}
+section.tokocalling section.collection li:nth-child(4){
+    background: url(../img/TDC_03_04.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 4;
+    grid-row: 1;  
+}
+section.tokocalling section.collection li:nth-child(5){
+    background: url(../img/TDC_03_05.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1;
+    grid-row: 2;  
+}
+section.tokocalling section.collection li:nth-child(6){
+    background: url(../img/TDC_03_06.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 2;
+    grid-row: 2;  
+}
+section.tokocalling section.collection li:nth-child(7){
+    background: url(../img/TDC_03_07.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 3;
+    grid-row: 2;  
+}
+section.tokocalling section.collection li:nth-child(8){
+    background: url(../img/TDC_03_08.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 4;
+    grid-row: 2;  
+}
+section.product {
+
+}
+
+
+
+div.product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: center;
+}
+section.product h3 {
+    font-size: 40px;
+    color: #ff6600;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+.product .product {
+    width: 1440px;
+    height: 388px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    list-style: none;
+    margin: 0 auto;
+    margin-bottom: 132px;
+}
+li.img {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+    list-style: none;
+}
+
+
+/* 텍스트 스타일 */
+.product p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6600;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.product .p5{
+    background-color: #f60;
+    width: 300px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+section.product {
+}
+
+section.product h3 {
+}
+
+
+section.product li.img {
+}
+
+section.product ul.image-container {
+    background-size: contain;
+    margin-bottom: 30px;
+}
+section.product ul.image-container p:nth-child(1){
+    color: white;
+    background-color: #282321;
+    height: 20px;
+    width: 80px;
+    font-size: 12px;
+    position: absolute;
+    margin: 16px;
+    font-weight: bold;
+}
+section.product ul.image-container p:nth-child(2) {
+    height: 25px;
+    width: 25px;
+    font-size: 0;
+    position: absolute;
+    margin: 16px;
+    background: no-repeat center url(../img/heart-svgrepo-com.svg);
+    margin-left: 248px;
+    background-size: contain;
+    transition: 0.12s;
+}
+section.product ul.image-container p:nth-child(2):hover {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    margin: 12px;
+    margin-left: 16px;
+    background: no-repeat center url(../img/heart-svgrepo-com-hover.svg);
+    background-size: auto;
+    margin-left: 244px;
+    background-size: contain;
+}
+
+section.product ul.image-container li {
+  width: 290px;
+  height: 290px;
+  list-style: none;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+section.product ul.image-container li:hover{
+
+}
+/* 개별 상품 이미지 설정 */
+section.product li.img:nth-child(1) ul.image-container li {
+  background-image: url(../img/TB0A6G5UU311_TB0A6G5UU311_primary.png);
+}
+section.product li.img:nth-child(1) ul.image-container li:hover{
+    background: url(../img/TB0A6G5UU311_TB0A6G5UU311_hover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section.product li.img:nth-child(2) ul.image-container li {
+  background-image: url(../img/TB0A6G57ERQ1_TB0A6G57ERQ1_primary.jpg);
+}
+section.product li.img:nth-child(2) ul.image-container li:hover{
+    background: url(../img/TB0A6G57ERQ1_TB0A6G57ERQ1_hover.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section.product li.img:nth-child(3) ul.image-container li {
+  background-image: url(../img/TB0A6G57U311_TB0A6G57U311_primary.jpg);
+}
+section.product li.img:nth-child(3) ul.image-container li:hover{
+    background: url(../img/TB0A6G57U311_TB0A6G57U311_hover.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section.product li.img:nth-child(4) ul.image-container li {
+  background-image: url(../img/PLP_Item_Tokyo_Design_Collective_01.jpg);
+  height: 540px;
+}
+section.product li.img ul.image-container li p{
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff8c;
+    border: 1px solid #282321;
+    position: absolute;
+    margin: 16px;
+    font-weight: bold;
+    color: #282321;
+    opacity: 0;
+    transition: 0.1s;
+    z-index: 1;
+    margin-top: 220px;
+}
+section.product li.img ul.image-container li:hover p{
+    opacity: 1;
+}
+
+
+section.product h3 {
+    font-size: 40px;
+    color: #ff6600;
+    margin-bottom: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+.product .product {
+    width: 1440px;
+    height: 388px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    list-style: none;
+    margin: 0 auto;
+    margin-bottom: 132px;
+}
+li.img {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+    list-style: none;
+}
+
+
+/* 텍스트 스타일 */
+.product p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6600;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+section.product2 {
+}
+
+section.product2 h3 {
+  font-size: 40px;
+  color: #ff6600;
+  margin: 250px 0 40px 0;
+  font-weight: normal;
+  text-align: center;
+}
+
+section.product2 div.product{
+   width: 1440px;
+  height: 1548px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 1fr 1fr 1fr;  
+  list-style: none;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+section.product2 li.img {
+}
+
+section.product2 ul.image-container {
+    background-size: contain;
+    margin-bottom: 30px;
+}
+section.product2 ul.image-container p:nth-child(1){
+    color: white;
+    background-color: #282321;
+    height: 20px;
+    width: 80px;
+    font-size: 12px;
+    position: absolute;
+    margin: 16px;
+    font-weight: bold;
+}
+section.product2 ul.image-container p:nth-child(2) {
+    height: 25px;
+    width: 25px;
+    font-size: 0;
+    position: absolute;
+    margin: 16px;
+    background: no-repeat center url(../img/heart-svgrepo-com.svg);
+    margin-left: 248px;
+    background-size: contain;
+    transition: 0.12s;
+}
+section.product2 ul.image-container p:nth-child(2):hover {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    margin: 12px;
+    margin-left: 16px;
+    background: no-repeat center url(../img/heart-svgrepo-com-hover.svg);
+    background-size: auto;
+    margin-left: 244px;
+    background-size: contain;
+}
+
+section.product2 ul.image-container li {
+  width: 290px;
+  height: 290px;
+  list-style: none;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+/* 개별 상품 이미지 설정 */
+section.product2 li.img:nth-child(1) ul.image-container li {
+  background-image: url(../img/TB0A6G5UU311_TB0A6G5UU311_primary.png);
+
+}
+section.product2 li.img:nth-child(1) ul.image-container li:hover{
+    background: url(../img/TB0A6G5UU311_TB0A6G5UU311_hover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section.product2 li.img:nth-child(2) ul.image-container li {
+  background-image: url(../img/TB0A6G57ERQ1_TB0A6G57ERQ1_primary.jpg);
+}
+section.product2 li.img:nth-child(2) ul.image-container li:hover{
+    background: url(../img/TB0A6G57ERQ1_TB0A6G57ERQ1_hover.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section.product2 li.img:nth-child(3) ul.image-container li {
+  background-image: url(../img/TB0A6G57U311_TB0A6G57U311_primary.jpg);
+}
+section.product2 li.img:nth-child(3) ul.image-container li:hover{
+    background: url(../img/TB0A6G57U311_TB0A6G57U311_hover.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section.product2 li.img:nth-child(4) ul.image-container li {
+  background-image: url(../img/PLP_Item_Tokyo_Design_Collective_01.jpg);
+  height: 450px;
+}
+section.product2 li.img:nth-child(5) ul.image-container li {
+  background-image: url(../img/TB0A6FTJ9181_TB0A6FTJ9181_primary.png);
+}
+section.product2 li.img:nth-child(5) ul.image-container li:hover{
+    background: url(../img/TB0A6FTJ9181_TB0A6FTJ9181_hover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section.product2 li.img:nth-child(6) ul.image-container li {
+  background-image: url(../img/TB0A6FTJP521_TB0A6FTJP521_primary.png);
+}
+section.product2 li.img:nth-child(6) ul.image-container li:hover{
+    background: url(../img/TB0A6FTJP521_TB0A6FTJP521_hover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section.product2 li.img:nth-child(7) ul.image-container li {
+  background-image: url(../img/TB0A6G1FERQ1_TB0A6G1FERQ1_primary.png);
+}
+section.product2 li.img:nth-child(7) ul.image-container li:hover{
+    background: url(../img/TB0A6G1FERQ1_TB0A6G1FERQ1_hover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section.product2 li.img:nth-child(8) ul.image-container li {
+  background-image: url(../img/TB0A6G1F2431_TB0A6G1F2431_primary.png);
+}
+section.product2 li.img:nth-child(8) ul.image-container li:hover{
+    background: url(../img/TB0A6G1F2431_TB0A6G1F2431_hover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section.product2 li.img:nth-child(9) ul.image-container li {
+  background-image: url(../img/PLP_Item_Tokyo_Design_Collective_02.jpg);
+  height: 540px;
+}
+section.product2 li.img:nth-child(10) ul.image-container li {
+  background-image: url(../img/TB0A6FZ72431_TB0A6FZ72431_primary.jpg);
+}
+section.product2 li.img:nth-child(10) ul.image-container li:hover{
+    background: url(../img/TB0A6FZ72431_TB0A6FZ72431_hover.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+section.product2 li.img:nth-child(11) ul.image-container li {
+    background: url(../img/PLP_Item_Tokyo_Design_Collective_03.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+section.product2 li.img ul.image-container li p{
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff8c;
+    border: 1px solid #282321;
+    position: absolute;
+    margin: 16px;
+    font-weight: bold;
+    color: #282321;
+    opacity: 0;
+    transition: 0.1s;
+    z-index: 1;
+    margin-top: 220px;
+}
+section.product2 li.img ul.image-container li:hover p{
+    opacity: 1;
+}
+.product2 p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6600;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.product2 .p5{
+  background-color: #f60;
+  width: 300px;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  position: center;
+  margin-bottom: 250px;
+}

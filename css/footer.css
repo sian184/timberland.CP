@@ -1,0 +1,235 @@
+/* 푸터 스타일 */
+footer {
+  color: white;
+  width: 1920px;
+}
+
+/* 푸터 메뉴 스타일 */
+#footer-menu {
+  background-color: #362d2e;
+  width: 1940px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer-menu .footer-container {
+}
+#footer-menu .footer-container #ffs1 {
+  
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+#footer-menu .footer-container #ffs1 .footer-section {
+  width: 340px;
+  height: 270px;
+  margin-bottom: 20px;
+  border-left: 1px solid #504849;
+  padding: 55px 0 30px;
+}
+#footer-menu .footer-container #ffs1 .footer-section:nth-child(4){
+   border-right: 1px solid #504849;
+}
+#footer-menu .footer-container #ffs1 .footer-section h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+#footer-menu .footer-container #ffs1 .footer-section ul {
+  list-style-type: none;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+  padding: 36px 82px;
+}
+
+#footer-menu .footer-container #ffs1 .footer-section ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#footer-menu .footer-container #ffs1 .footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer-menu .footer-container #ffs1 .footer-section ul li a:hover {
+  color: #f90;
+}
+
+#ffs2{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+#ffs2 .footer-section2 {
+  width: 350px;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#ffs2 .footer-section2 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 20px;
+  text-align: center;
+}
+
+#ffs2 .footer-section2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#ffs2 .footer-section2 ul li {
+  margin-bottom: 8px;
+}
+
+#ffs2 .footer-section2 ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#ffs2 .footer-section2 ul li a:hover {
+  text-decoration: underline;
+}
+/* 버튼 스타일 */
+.store-locator {
+  background-color: #f90;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  width: 284px;
+  height: 50px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.store-locator:hover {
+  background-color: #231f20;
+  color: white;
+}
+
+/* 소셜 아이콘 */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #444;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.icon:hover {
+  background-color: #ff9900;
+  color: black;
+}
+
+/* 고객센터 스타일 */
+.customer-phone {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f90;
+  margin-bottom: 5px;
+}
+
+/* 푸터 하단 정보 */
+.footer-bottom {
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+  line-height: 1.6;
+  background-color: #231f20;
+  width: 1920px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-bottom .bb12 {
+  
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 1000px 360px;
+  grid-template-rows: auto;
+  overflow: hidden;
+  text-align: left;
+  line-height: 1.6;
+}
+.footer-bottom .bb12 p{
+  
+}
+.footer-bottom .bb12 p:nth-child(1){
+  
+}
+.footer-bottom .bb12 p:nth-child(1) span{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.footer-bottom .bb12 p:nth-child(3){
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.footer-bottom .bb12 p:nth-child(5){
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.footer-bottom .bb12 p:nth-child(5):hover{
+  
+  color: #f90;
+}
+.footer-bottom .bb12 .b1 {
+  
+  grid-column: 1;
+}
+.footer-bottom .bb12 .b2 {
+  
+  grid-column: 2;
+}
+.footer-bottom span {
+}
+
+.escrow-info {
+  color: #ff9900;
+  font-weight: bold;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .footer-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-container {
+    flex-direction: column;
+  }
+}

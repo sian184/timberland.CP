@@ -1,0 +1,10 @@
+header .navbar .flex ul.gnb li a:hover {
+  color: #282321;
+  background-color: white;
+}
+header .navbar .flex ul.gnb li ul.sub:hover{
+  width: 1920px;
+  height: 600px;
+  background-color: white; 
+  opacity: 100;
+}
